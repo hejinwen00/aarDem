@@ -8,5 +8,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        
+        sun(3.4)
+    }
+
+    private fun sun(d: Double) {
+
     }
 }
